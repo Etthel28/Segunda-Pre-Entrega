@@ -1,0 +1,38 @@
+/*.container {
+  display: grid;   grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+ 
+}*/
+
+
+.tit1 {
+
+    background-color: lightblue;
+display: flex;
+    color: black;
+    border: 5px solid lightblue;
+    border-radius: 15px 0 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+   /* margin-left: 500px;
+    margin-top: 20px;*/
+    text-decoration: underline;
+  width: 250px;
+    height: auto;
+    margin: 50px auto;
+    box-sizing: border-box; 
+
+}
+
+.inf {
+    margin: auto;
+}
+
+.hit a:hover {
+    background-color:salmon;
+}
+
+.teor a:hover {
+    background-color:salmon;
+}
