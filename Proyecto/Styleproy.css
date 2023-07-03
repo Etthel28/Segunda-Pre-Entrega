@@ -1,13 +1,13 @@
-/*.container {
-  display: grid;   grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+.titu-container {
+background-color: lightblue;
+height: 1%;
+padding: 10px;
+opacity: 1;
+}
 
- 
-}*/
 
 
 .tit1 {
-
     background-color: lightblue;
 display: flex;
     color: black;
@@ -18,21 +18,29 @@ display: flex;
    /* margin-left: 500px;
     margin-top: 20px;*/
     text-decoration: underline;
-  width: 250px;
+    width: 250px;
     height: auto;
     margin: 50px auto;
     box-sizing: border-box; 
+  
+    
+   
 
 }
 
 .inf {
     margin: auto;
 }
-
+/*
 .hit a:hover {
     background-color:salmon;
 }
 
 .teor a:hover {
     background-color:salmon;
+}
+*/
+
+.nav-item a:hover {
+    background-color: burlywood;
 }
