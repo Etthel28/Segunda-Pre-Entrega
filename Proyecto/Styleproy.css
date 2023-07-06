@@ -1,36 +1,57 @@
-.titu-container {
-background-color: lightblue;
+.container-fluid {
+background-color: rgb(25, 108, 136);
 height: 1%;
 padding: 10px;
-opacity: 1;
+display: grid;
+
+}
+
+.marg {
+ width: 350px;
+height: auto;
+padding: 10px 40px;
+    background-color: lightblue;  
+       border: 5px solid lightblue;
+    border-radius: 15px 0 15px 0;
+}
+
+.inf {
+margin-left: auto;
+display: flex;
+    color: black;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px; 
+    text-decoration: underline;
 }
 
 
+.nom {
+    margin: 15px;
 
-.tit1 {
-    background-color: lightblue;
-display: flex;
-    color: black;
-    border: 5px solid lightblue;
-    border-radius: 15px 0 15px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 52px;
+}
+.texto {
+    padding: 5px 15px;
+}
    /* margin-left: 500px;
-    margin-top: 20px;*/
-    text-decoration: underline;
+    margin-top: 20px;
+   
     width: 250px;
     height: auto;
     margin: 50px auto;
     box-sizing: border-box; 
   
-    
    
 
-}
 
-.inf {
-    margin: auto;
-}
+
+/*.inf {
+    margin: 10px auto;
+    border: 10px 0 10px 0;
+    background-color: blue;*
+    
+    
+}/
 /*
 .hit a:hover {
     background-color:salmon;
