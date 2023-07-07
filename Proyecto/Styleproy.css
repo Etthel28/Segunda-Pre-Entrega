@@ -1,8 +1,11 @@
 .container-fluid {
-background-color: rgb(25, 108, 136);
+background-color: rgb(216, 218, 219);
 height: 1%;
+width: 25px;
 padding: 10px;
-display: grid;
+
+opacity: 75%;
+
 
 }
 
@@ -10,9 +13,9 @@ display: grid;
  width: 350px;
 height: auto;
 padding: 10px 40px;
-    background-color: lightblue;  
-       border: 5px solid lightblue;
-    border-radius: 15px 0 15px 0;
+background-color: lightblue;  
+  border: 5px solid lightblue;
+    border-radius: 15px 0 15px 0; box-sizing: border-box; 
 }
 
 .inf {
@@ -28,40 +31,12 @@ display: flex;
 
 .nom {
     margin: 15px;
+    padding: 15px;
 
 }
 .texto {
     padding: 5px 15px;
-}
-   /* margin-left: 500px;
-    margin-top: 20px;
-   
-    width: 250px;
-    height: auto;
-    margin: 50px auto;
-    box-sizing: border-box; 
-  
-   
-
-
-
-/*.inf {
-    margin: 10px auto;
-    border: 10px 0 10px 0;
-    background-color: blue;*
-    
-    
-}/
-/*
-.hit a:hover {
-    background-color:salmon;
+    margin: 20px;
+    min-width: 250px;
 }
 
-.teor a:hover {
-    background-color:salmon;
-}
-*/
-
-.nav-item a:hover {
-    background-color: burlywood;
-}
