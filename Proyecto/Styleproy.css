@@ -1,31 +1,37 @@
-.container-fluid {
-background-color: rgb(216, 218, 219);
-height: 1%;
-width: 25px;
-padding: 10px;
-
-opacity: 75%;
-
-
+.bg-header {
+    background-color: rgb(75, 160, 202);
+    width: 25px;
+    padding: 25px 0px;
 }
 
-.marg {
- width: 350px;
-height: auto;
-padding: 10px 40px;
-background-color: lightblue;  
-  border: 5px solid lightblue;
-    border-radius: 15px 0 15px 0; box-sizing: border-box; 
+.bg-navbar-custom {
+    background-color: lightblue;
+    border-bottom: solid lightseagreen;
 }
+
+.bg-navbar-custom .nav-link {
+    color: rgb(2, 37, 54);
+    font-weight: bold;
+}
+
+.bg-navbar-custom .nav-link:hover {
+    color: rgb(124, 128, 131);
+}
+
 
 .inf {
-margin-left: auto;
-display: flex;
+    margin: 0px auto;
+    display: flex;
     color: black;
-  
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 52px; 
+    font-size: 52px;
+    padding: 15px;
     text-decoration: underline;
+    background-color: lightblue;
+    border: 5px solid lightblue;
+    border-radius: 15px 0 15px 0;
+    box-sizing: border-box;
+    text-shadow: 0px 0px 4px rgb(96, 231, 255);
 }
 
 
@@ -34,9 +40,19 @@ display: flex;
     padding: 15px;
 
 }
+
 .texto {
     padding: 5px 15px;
     margin: 20px;
     min-width: 250px;
 }
 
+/*.container div {
+    background-color: aquamarine;
+    cursor: pointer;
+    border: #fff solid 3px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+
+}*/
