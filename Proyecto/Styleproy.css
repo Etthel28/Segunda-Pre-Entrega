@@ -1,7 +1,15 @@
 .bg-header {
     background-color: rgb(75, 160, 202);
     width: 25px;
-    padding: 25px 0px;
+    padding: 25px 0px;   
+     margin-top: 0 auto;
+}
+
+.imagen {
+    /*position: relative;*/ 
+    /*left: 60px;*/
+    top: 98px;
+    margin-right: 15px;
 }
 
 .bg-navbar-custom {
@@ -19,8 +27,9 @@
 }
 
 
-.inf {
-    margin: 0px auto;
+.inf { 
+   
+    margin-top: 0px auto;
     display: flex;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -56,3 +65,44 @@
     display: inline-block;
 
 }*/
+
+.fondo {
+    display: inline-block;
+    text-align: center;
+}
+
+.centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: rgb(226, 214, 147);
+    padding: 20px 30px;
+
+}
+
+.container div {
+    background-color: aquamarine;
+    cursor: pointer;
+    border: #FFF solid 7px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    padding: 7px;
+    margin-top: 50px;
+   /* display: flex;*/
+}
+
+
+/* .container div:hover {
+    width: 100px;
+    height: 100px;
+    z-index: 30 !important;
+}*/
+
+.carousel-item {
+   width:225px ;
+  height: auto;
+
+}
